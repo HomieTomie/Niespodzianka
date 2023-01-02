@@ -15,7 +15,7 @@ function change() // no ';' here
 function countdown()
 {
     // Set the date we're counting down to
-    var countDownDate = new Date("Dec 31, 2022 18:30:00").getTime();
+    var countDownDate = new Date("Jan 6, 2023 12:30:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -42,7 +42,7 @@ function countdown()
             // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "Czas zacząć przygodę";
+        document.getElementById("demo").innerHTML = "Poproś Tomka o dostęp";
         }
     }, 1000);
 }
