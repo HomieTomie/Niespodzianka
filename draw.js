@@ -1,6 +1,6 @@
 function change() // no ';' here
 {
-    var countDownDate = new Date("Dec 31, 2022 18:30:00").getTime();
+    var countDownDate = new Date("Jan 6, 2023 12:30:00").getTime();
     var now = new Date().getTime();
     var distance = countDownDate - now;
     var elem = document.getElementById("Button");
